@@ -93,15 +93,3 @@ def product_delete(request,id):
 		request=request,
 		)
 	return JsonResponse(data)
-
-
-
-
-
-
-
-
-
-
-
-    

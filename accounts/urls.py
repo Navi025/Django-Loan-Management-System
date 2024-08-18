@@ -12,4 +12,3 @@ urlpatterns = [
     path('borrower/create/', views.createCLient, name='create_client'),
     re_path(r'^borrower/delete/(?P<id>\d+)/$', views.clientDelete, name='delete_client'),
 ]
-

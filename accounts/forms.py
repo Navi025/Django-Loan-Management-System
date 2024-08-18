@@ -53,5 +53,4 @@ class userForm(forms.ModelForm):
 		'first_name':forms.TextInput(attrs={'class':'form-control', 'required':True, 'value':''}),
 		'last_name':forms.TextInput(attrs={'class':'form-control', 'required':True, 'value':''}),
 		'email':forms.EmailInput(attrs={'class':'form-control', 'required':True, }),
-		}	 
-
+		 }	 
